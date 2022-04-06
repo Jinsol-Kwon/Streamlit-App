@@ -5,7 +5,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-data = pd.read_csv('/Users/jinsolkwon/Downloads/Portfolio/heart_2020_cleaned.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/Jinsol-Kwon/Streamlit-App/main/heart_2020_cleaned.csv')
 
 Yes_No_Columns = [column for column in data.columns if (len(data[column].value_counts()) == 2)]
 Yes_No_Columns.remove('HeartDisease')

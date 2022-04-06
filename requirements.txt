@@ -1,10 +1,7 @@
 scikit-learn
 pandas
 streamlit
-sklearn.model_selection
-sklearn.linear_model
 pandas
 seaborn
 matplotlib
-matplotlib.pyplot
 numpy
